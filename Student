@@ -1,0 +1,21 @@
+package Assignment1;
+
+public class Student1 {
+	
+	public void RollNumber()
+	{
+		System.out.println("123");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//Syntax ClassName ObjectName = new ClassName();
+		Student1 Aman = new Student1();
+		System.out.println("Aman");
+		
+		//Syntax ObjectName.methodName();
+		Aman.RollNumber();
+		
+	}
+
+}
